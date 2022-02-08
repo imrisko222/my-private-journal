@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 10.24px;
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 36px 40px;
+  height: auto;
+}
+
+.heroContainer .mountain {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.locationSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.locationSection p {
+  text-transform: uppercase;
+  padding-left: 4px;
+  padding-right: 12px;
+}
+
+.locationSection a {
+  color: #918e9b;
+  font-size: 10px;
+  /* padding: auto 12px; */
+}
+
+.infoSection h3 {
+  font-size: 2.5rem;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2b283a;
+  padding-top: 4px;
+}
+
+.infoSection .date {
+  line-height: 12px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 7px;
+}
+
+.infoSection .descriptionInfo {
+  line-height: 15px;
+  font-weight: 400;
+  margin-top: 9px;
+}
